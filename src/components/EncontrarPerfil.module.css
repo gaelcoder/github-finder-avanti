@@ -56,4 +56,56 @@
     width: 100%;
     max-width: 500px;
     margin: 0 auto 20px;
-  }
+}
+
+.alerta{
+    width: 500px;
+    height: 100px;
+    color: red;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+
+.alerta p{
+   margin: 0;
+   padding: 0;
+}
+
+.cardUsuario{
+    width: 800px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 200px 500px;
+    column-gap: 70px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.cardUsuario img{
+    border-radius: 50%;
+    width: 200px;
+    border: #003dc0 solid 2px;
+    margin-left: 20px;
+}
+
+.infoUsuario{
+    text-align: left;
+}
+
+.infoUsuario{
+    font-weight: 500;
+    color: #235cd8;
+}
+
+.infoUsuario p{
+    text-decoration: none;
+    font-weight: 200;
+    color: #000;
+}
